@@ -1,0 +1,65 @@
+*{
+    font-size: 25px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+main, aside, div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+    height: 350px;
+    background: lightblue;
+    }
+
+aside {
+    width: 100%;
+    height: 350px;
+    background: lightgreen;
+    }
+
+div {
+    width: 100%;
+    height: 350px;
+    background: yellow;
+    }
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
